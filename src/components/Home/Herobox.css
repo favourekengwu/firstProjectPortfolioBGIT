@@ -1,0 +1,61 @@
+.herobox_section{
+    height: 80vh;
+}
+.bg_image {
+    height: 80vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/624b503b0f4c592cc4f8981f/1649102922661-9PFLZ4912JPIBTMMM4BG/autotunes-2.jpg?format=2500w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: aqua; */
+}
+
+.bg_overlay {
+    background-color: rgba(164, 164, 164, 0.497);
+    /* background-color: rgba(184, 135, 199, 0.2); */
+    /* background-color: rgba(187, 105, 131, 0.146); */
+}
+
+
+.hero_content {
+    height: 75vh;
+}
+
+@media screen and (max-width: 450px) {
+    .bg_image {
+        height: 100vh;
+    }
+
+    .hero_content {
+        height: 100vh;
+    }
+
+}
+
+/* .contact_button {
+    
+    transition: all 0.4s ease-in-out;
+} */
+
+.herobox_button {
+    width: 25%;
+    transition: all 0.2s ease-in-out;
+    background-color: transparent;
+    color: black;
+}
+
+.herobox_button:hover {
+    background-color: #f9004d;
+    transform: translate3d(0px, -1px, 0px);
+    color: #fff;
+}
+
+.herobox_button:visited {
+    background-color: #f9004d;
+    color: #fff;
+}
+
+
+/* .text_area {
+    white-space: pre;
+} */

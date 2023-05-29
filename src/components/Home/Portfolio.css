@@ -1,0 +1,44 @@
+/* About Stying */
+.portfolio_section {
+    height: 70vh;
+    background-color: #4d4d4d;
+}
+
+.section_two {   
+    min-height: 500px;
+    padding-top: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio_content {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 25px;
+}
+
+.section_two_child {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    gap: 8vh;
+    padding: 5vh;
+    justify-content: center;
+    width: fit-content;
+    color: #000;
+}
+
+
+
+.object-cover-image-section-two {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+    .section_two_child {
+        flex-direction: column;
+    }
+}

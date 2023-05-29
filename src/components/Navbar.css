@@ -1,0 +1,24 @@
+.my_navBar {
+    position: fixed;
+    width: 100%;
+    /* top: 1px;
+    left: 7.5%; */
+    z-index: 10;
+}
+/* navbar background colour */
+/* bg-transparent bg-body-tertiary */
+.navbar_button {
+    padding: 3px 17px;
+    transition: all 0.2s ease-in-out;
+}
+
+ul > .nav-button:hover {
+    background-color: #f9004d;
+    transform: translate3d(0px, -1px, 0px);
+    border: none;
+    color: #fff;
+}
+
+.navbar_button > .nav-link:hover {
+    color: #fff;
+}

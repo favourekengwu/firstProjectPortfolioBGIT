@@ -1,0 +1,25 @@
+/* Footer Styling */
+
+footer {
+    background-color:#4d4d4d;
+    /* background-color: rgba(0, 0, 0, 0.2);      */
+    padding: 3vh;
+    text-align: center;
+    color: #fff;
+}
+
+.footer_ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.footer_ul li a {
+    color: #fff;
+}
+
+/* hr{
+    border-left: 6px solid green;
+    height: 50%;
+} */

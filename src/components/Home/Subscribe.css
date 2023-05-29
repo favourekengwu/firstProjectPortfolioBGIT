@@ -1,0 +1,44 @@
+/* Subscribe Stying */
+.subscribe_section {
+    height: 45vh;
+}
+
+.subscribe_wrapper {
+    display: grid;
+    place-content: center;
+    align-items: center;
+    /* min-width: 900px; */
+    text-align: center;
+}
+
+.subscribe_button {
+    width: 25%;
+    transition: all 0.2s ease-in-out;
+    background-color: transparent;
+    color: black;
+}
+
+.subscribe_button:hover {
+    background-color: #f9004d;
+    transform: translate3d(0px, -1px, 0px);
+    color: #fff;
+}
+
+
+@media (max-width: 1000px) {
+    .subscribe_wrapper {
+        min-width: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    .subscribe_wrapper {
+        min-width: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .subscribe_wrapper {
+        min-width: 400px;
+    }
+}
