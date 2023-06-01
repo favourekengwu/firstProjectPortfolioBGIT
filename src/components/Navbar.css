@@ -5,8 +5,21 @@
     left: 7.5%; */
     z-index: 10;
 }
+
+.my_NavName{
+    font-size: 25px;
+    font-weight: 800;
+    font-style: oblique;
+}
+
 /* navbar background colour */
 /* bg-transparent bg-body-tertiary */
+
+li {
+    font-size: 18px;
+    font-weight: 550;
+}
+
 .navbar_button {
     padding: 3px 17px;
     transition: all 0.2s ease-in-out;

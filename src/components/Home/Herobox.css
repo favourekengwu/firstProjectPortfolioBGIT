@@ -29,16 +29,15 @@
 
 .hero_title{
     color: white;
-    font-size: 35px;
+    font-size: 34px;
+    
 }
 
 .hero_text {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 20px;
 }
-
-
 
 @media screen and (max-width: 450px) {
     .bg_image {
@@ -62,6 +61,7 @@
     background-color: transparent;
     color: white;
     font-size: 20px;
+    font-weight: 550;
 }
 
 .herobox_button:hover {

@@ -24,16 +24,16 @@ const Herobox = () => {
                   </div>
                 </div>
                 <div className="col">
-                  <div className="herobox_two">
-                    <div className="card w-100 ps-5 border-0 bg-transparent text-start">
+                  <div className="herobox_two d-flex justify-content-end">
+                    <div className="card w-100 ps-4 border-0 bg-transparent text-start">
                       <div className="card-body">
                         <p className="card-text hero_text">
-                          I'm a frontend developer that specialises in building websites and web apps.
+                          Passionate front-end developer, with a keen eye for design and a strong focus on user experience.
                           <br />
-                          I specialise in creating user interfaces with HTML, CSS and JavaScript.
+                          With a solid foundation in web development and a creative mindset, 
+                          I am excited to showcase my innovative approach and projects to potential clients and employers.
                           <br />
-                          Additionally, I'm experienced in using libraries and frameworks
-                          such as React, as well as various task runners and build tools.
+                          I leverage front-end framework like React to add functionality and interactivity to websites.
                         </p>
                         <button type="button" className="btn p-2 nav-button border border-2 rounded herobox_button">
                          Inquire

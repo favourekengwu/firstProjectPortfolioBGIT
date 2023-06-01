@@ -22,22 +22,22 @@ function App() {
         index: true,
         element:<Home />,
       },
-      // {
-      //   path: 'about',
-      //   element:<About />,
-      // },
-      // {
-      //   path:'shop',
-      //   element:<Shop />,
-      // },
-      // {
-      //   path:'games',
-      //   element:<Games />,
-      // },
-      // {
-      //   path:'contact',
-      //   element:<Contact />,
-      // }
+      {
+        path: 'about',
+        element:<About />,
+      },
+      {
+        path:'shop',
+        element:<Shop />,
+      },
+      {
+        path:'games',
+        element:<Games />,
+      },
+      {
+        path:'contact',
+        element:<Contact />,
+      }
     ]
     }]
   )

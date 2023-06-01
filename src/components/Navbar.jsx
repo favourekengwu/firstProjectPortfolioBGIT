@@ -13,19 +13,19 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-4 ms-auto mb-2 mb-lg-0 d-flex align-items-center">
-                        <li className="nav-item me-3">
+                        <li className="nav-item me-4">
                             <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
                         </li>
-                        <li className="nav-item me-3">
+                        <li className="nav-item me-4">
                             <NavLink className="nav-link" to="/about">About</NavLink>
                         </li>
-                        <li className="nav-item me-3">
+                        <li className="nav-item me-4">
                             <NavLink className="nav-link" to="/shop">Shop</NavLink>
                         </li>
-                        <li className="nav-item me-3">
+                        <li className="nav-item me-4">
                             <NavLink className="nav-link" to="/games">Games</NavLink>
                         </li>
-                        <li className="nav-item me-3 nav-button border border-2 rounded ms-2 navbar_button">
+                        <li className="nav-item me-4 nav-button border border-2 rounded ms-2 navbar_button">
                             <NavLink className="nav-link" to="/contact">Contact</NavLink>
                         </li>
                     </ul>
