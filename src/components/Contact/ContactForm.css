@@ -1,17 +1,13 @@
-:root {
-    /* color */
+/* :root {
+    color
     --transparent-color: transparent;
     --primary-color: #000;
     --text-secondary-color: #fff;
     --background-color-dark: #4d4d4d;
-}
+} */
 
 /*null style*/
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
+
 
 *,
 *:before,
@@ -99,12 +95,12 @@ body {
 
 /*-------------------------*/
 
-main {
+/* main {
     min-height: 86.5vh;
     display: flex;
     place-content: center;
     align-items: center;
-}
+} */
 
 .section-one {
     max-width: 700px;
