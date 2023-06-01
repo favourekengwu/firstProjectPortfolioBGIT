@@ -1,8 +1,10 @@
 .herobox_section{
     height: 80vh;
 }
+
 .bg_image {
     height: 80vh;
+    /* top: 50px; */
     background-image: url(https://images.squarespace-cdn.com/content/v1/624b503b0f4c592cc4f8981f/1649102922661-9PFLZ4912JPIBTMMM4BG/autotunes-2.jpg?format=2500w);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,15 +13,32 @@
 }
 
 .bg_overlay {
-    background-color: rgba(164, 164, 164, 0.497);
+    background-color: rgba(32, 31, 31, 0.497);
     /* background-color: rgba(184, 135, 199, 0.2); */
     /* background-color: rgba(187, 105, 131, 0.146); */
 }
 
 
 .hero_content {
-    height: 75vh;
+    height: 80vh;
 }
+
+/* .intro_wrapper {
+    height: 30vh;
+} */
+
+.hero_title{
+    color: white;
+    font-size: 35px;
+}
+
+.hero_text {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
 
 @media screen and (max-width: 450px) {
     .bg_image {
@@ -41,7 +60,8 @@
     width: 25%;
     transition: all 0.2s ease-in-out;
     background-color: transparent;
-    color: black;
+    color: white;
+    font-size: 20px;
 }
 
 .herobox_button:hover {
