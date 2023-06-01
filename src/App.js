@@ -8,9 +8,10 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import MainLayout from './layout/MainLayout';
 import Home from './pages/Home';
 import About from './pages/About';
-import Shop from './pages/Shop';
+import Shop from './pages/Portfolio';
 import Games from './pages/Games';
 import Contact from './pages/Contact';
+import Portfolio from './components/Home/Portfolio';
 
 function App() {
   const callRouter = createBrowserRouter(
@@ -27,8 +28,8 @@ function App() {
         element:<About />,
       },
       {
-        path:'shop',
-        element:<Shop />,
+        path:'portfolio',
+        element:<Portfolio />,
       },
       {
         path:'games',
