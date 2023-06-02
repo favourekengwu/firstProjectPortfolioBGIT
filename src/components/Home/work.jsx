@@ -55,7 +55,66 @@ export default Herobox;
 
 
 
-
+<section className="portfolioHome_section pt-5">
+            <div className="container" >
+                <div className="portfolioHome_content">
+                    <h2 className="text-center portfolioHome_title">Some Of My Works</h2>
+                    <div className="row row-cols-md-3 w-100 d-flex justify-content-center">
+                        <div className="portfolioHome_card card border-0 text-start bg-transparent ">
+                            <div className="card-body text-center card-services">
+                                <img src={CorpImage}
+                                className="card-img-top rounded"
+                                alt="..."
+                                />
+                                <div class="card-body pe-0 ps-0">
+                                    <h5 class="card-title">Cooperate Business Landing Page</h5>
+                                    <p class="card-text">
+                                        A website belonging to a cooperative company that includes price tags
+                                    </p>
+                                    <a href="https://first-bootstrap-project-sigma.vercel.app/" class="services-pt2-card-link" target='_blank'>
+                                        <span class="underline-me2">Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="portfolioHome_card card border-0 text-start bg-transparent ">
+                            <div className="card-body text-center card-services">
+                                <img src={GuessImage}
+                                className="card-img-top rounded"
+                                alt="..."
+                                />
+                                <div class="card-body pe-0 ps-0">
+                                    <h5 class="card-title">Guessing Game</h5>
+                                    <p class="card-text">
+                                        A Javascript guessing game in which users have five chances to guess the correct number and receive feedback on each guess.
+                                    </p>
+                                    <a href="#" class="services-pt2-card-link">
+                                        <span class="underline-me2">Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="portfolioHome_card card border-0 text-start bg-transparent ">
+                            <div className="card-body text-center card-services">
+                                <img src={PortImage}
+                                className="card-img-top rounded"
+                                alt="..."
+                                />
+                                <div class="card-body pe-0 ps-0">
+                                    <h5 class="card-title">First CSS website</h5>
+                                    <p class="card-text">
+                                        The very first website built with only the most fundamental elements of HTML and CSS
+                                    </p>
+                                    <a href="https://first-css-sproject.vercel.app/" class="services-pt2-card-link" target='_blank'>
+                                        <span class="underline-me2">Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section> 
 
 
 
