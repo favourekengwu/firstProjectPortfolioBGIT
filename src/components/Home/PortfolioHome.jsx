@@ -1,6 +1,6 @@
 import React from 'react';
 import './PortfolioHome.css';
-import GuessImage from '../../assets/guess1.png';
+import FigmaImage from '../../assets/figma1.png';
 import CorpImage from '../../assets/corp1.png';
 import PortImage from '../../assets/port1.png'
 
@@ -9,7 +9,7 @@ const PortfolioHome = () => {
     <div>
         <section className="portfolioHome_section p-3">
             <div className="container" >
-                <div className="portfolioHome_content my-5">
+                <div className="portfolioHome_content">
                     <h2 className="text-center display-4 fw-bold portfolioHome_title">Some Of My Works</h2>
                     <div class="text-center fs-5 portfolioHome_text">
                         There are many variations of passages of Lorem Ipsum available, but
@@ -18,16 +18,16 @@ const PortfolioHome = () => {
                     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 portfolioHome_gallary ">
                         <div class="mb-4">
                             <div
-                                class="portfolioHome_wrapper position-relative img-wrapper rounded-2 border"
+                                class="portfolioHome_wrapper position-relative  rounded-2 border"
                                 style={{backgroundImage:`url(${CorpImage})` }}
                             >
                                 <div class="portfolioHome_overlay w-100 h-100 position-absolute rounded-2"></div>
                                 <div
                                     class="text-white ps-4 portfolioHome_stats position-relative top-50"
                                 >
-                                    <span class="d-block fw-bold mb-2">Development</span>
+                                    <h4 class="d-block fw-bold mb-2">Development</h4>
                                     <p class="text-light fs-5 fw-bold">
-                                    Getting tickets to the big show
+                                    Cooperate Business Landing Page
                                     </p>
                                     <button
                                     class="btn border border-3 border-danger text-white px-4 py-2"
@@ -41,7 +41,7 @@ const PortfolioHome = () => {
                         <div class="mb-4">
                             <div
                                 class="portfolioHome_wrapper position-relative img-wrapper rounded-2 border"
-                                style={{backgroundImage:`url(${GuessImage})` }}
+                                style={{backgroundImage:`url(${FigmaImage})` }}
                             >
                                 <div
                                 class="portfolioHome_overlay w-100 h-100 position-absolute top-0 start-0 rounded-2"
@@ -49,14 +49,14 @@ const PortfolioHome = () => {
                                 <div
                                     class="pb-3 text-white ps-4 portfolioHome_stats position-relative top-50"
                                 >
-                                    <span class="d-block fw-bold mb-2">Management.</span>
+                                    <h4 class="d-block fw-bold mb-2">Design</h4>
                                     <p class="text-light fs-5 fw-bold">
-                                    A big ticket gone to be an interesting
+                                    Figma Design for a Pet Minder Business
                                     </p>
                                     <button
                                     class="btn border border-3 border-danger text-white px-4 py-2"
                                     >
-                                    <a href="https://first-css-sproject.vercel.app/" class="portfolioHome_link" target='_blank'>Read More</a>
+                                    <a href="https://www.figma.com/file/5BCkyFYc0QNKiUEdjgjkut/Pet-Minders?type=design&node-id=53-1130" class="portfolioHome_link" target='_blank'>Read More</a>
                                     </button>
                                 </div>
                                 
@@ -74,9 +74,9 @@ const PortfolioHome = () => {
                             <div
                                 class="pb-3 text-white ps-4 portfolioHome_stats position-relative top-50"
                             >
-                                <span class="d-block fw-bold mb-2">Design</span>
+                                <h4 class="d-block fw-bold mb-2">Portflio</h4>
                                 <p class="text-light fs-5 fw-bold">
-                                The Home of the Future Could Bebes
+                                Personal Portflio using HTML and CSS
                                 </p>
                                 <button
                                 class="btn border border-3 border-danger text-white px-4 py-2"
