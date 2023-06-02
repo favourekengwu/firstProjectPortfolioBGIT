@@ -26,7 +26,7 @@
                                             I am eager to expand my knowledge and stay updated with emerging technologies and industry trends. 
                                         </p>
                                         <button type="button" className="btn p-2 border border-2 rounded aboutHome_button">
-                                         <a href="../../assets/Favour Ekengwu Tech 2023.pdf" class="aboutHome_link" target='_blank'>Read More</a>
+                                         <a href={MyCV} class="aboutHome_link" target='_blank'>Read More</a>
                                         </button>
                                     </div>
                                 </div>
