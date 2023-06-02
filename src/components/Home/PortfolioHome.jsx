@@ -10,10 +10,9 @@ const PortfolioHome = () => {
         <section className="portfolioHome_section p-3">
             <div className="container" >
                 <div className="portfolioHome_content">
-                    <h2 className="text-center display-4 fw-bold portfolioHome_title">Some Of My Works</h2>
-                    <div class="text-center fs-5 portfolioHome_text">
-                        There are many variations of passages of Lorem Ipsum available, but
-                        <br /> the majority have suffered alteration.
+                    <h2 className="text-center display-4 fw-bold portfolioHome_title">My Latest Works</h2>
+                    <div class="text-center portfolioHome_text">
+                        These are the latest works of website developemnt and UI Design.
                     </div>
                     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 portfolioHome_gallary ">
                         <div class="mb-4">
