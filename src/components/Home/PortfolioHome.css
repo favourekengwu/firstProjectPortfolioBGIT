@@ -16,8 +16,10 @@
 
 .portfolioHome_gallary {
     background-color: #fff;
-    padding-top: 2vh;
-    /* justify-content: center; */
+    padding-top: 3vh;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* margin: 30px; */
     color: #000;
 }
 

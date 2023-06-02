@@ -18,7 +18,7 @@ const PortfolioHome = () => {
                     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 portfolioHome_gallary ">
                         <div class="mb-4">
                             <div
-                                class="portfolioHome_wrapper position-relative  rounded-2 border"
+                                class="portfolioHome_wrapper position-relative rounded-2 border"
                                 style={{backgroundImage:`url(${CorpImage})` }}
                             >
                                 <div class="portfolioHome_overlay w-100 h-100 position-absolute rounded-2"></div>
@@ -62,7 +62,6 @@ const PortfolioHome = () => {
                                 
                             </div>
                         </div>
-
                         <div class="mb-4">
                         <div
                             class="portfolioHome_wrapper position-relative img-wrapper rounded-2 border"
