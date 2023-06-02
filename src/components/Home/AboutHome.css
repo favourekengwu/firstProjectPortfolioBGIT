@@ -32,6 +32,16 @@
     color: #fff;
 }
 
+.aboutHome_link:hover {
+    color: #fff;
+    transform: translate3d(0px, -1px, 0px);
+}
+
 .aboutHome_img {
     width: 590px;
+}
+
+.aboutHome_link {
+    text-decoration: none;
+    color: #000;
 }

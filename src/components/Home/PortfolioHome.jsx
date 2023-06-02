@@ -31,7 +31,7 @@ const PortfolioHome = () => {
                                     <button
                                     class="btn border border-3 border-danger text-white px-4 py-2"
                                     >
-                                    <a href="https://first-bootstrap-project-sigma.vercel.app/" class="portfolioHome_link" target='_blank'>Read More</a>
+                                    <a href="https://first-bootstrap-project-sigma.vercel.app/" class="portfolioHome_link" target='_blank'>View</a>
                                     </button>
                                 </div>
                                 
@@ -55,7 +55,7 @@ const PortfolioHome = () => {
                                     <button
                                     class="btn border border-3 border-danger text-white px-4 py-2"
                                     >
-                                    <a href="https://www.figma.com/file/5BCkyFYc0QNKiUEdjgjkut/Pet-Minders?type=design&node-id=53-1130" class="portfolioHome_link" target='_blank'>Read More</a>
+                                    <a href="https://www.figma.com/file/5BCkyFYc0QNKiUEdjgjkut/Pet-Minders?type=design&node-id=53-1130" class="portfolioHome_link" target='_blank'>View</a>
                                     </button>
                                 </div>
                                 
@@ -79,7 +79,7 @@ const PortfolioHome = () => {
                                 <button
                                 class="btn border border-3 border-danger text-white px-4 py-2"
                                 >
-                                <a href="https://first-css-sproject.vercel.app/" class="portfolioHome_link" target='_blank'>Read More</a>
+                                <a href="https://first-css-sproject.vercel.app/" class="portfolioHome_link" target='_blank'>View</a>
                                 </button>
                             </div>
                             

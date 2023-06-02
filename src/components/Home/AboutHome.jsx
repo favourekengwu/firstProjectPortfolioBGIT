@@ -1,5 +1,6 @@
     import React from 'react';
     import './AboutHome.css';
+    import MyCV from '../../assets/Favour Ekengwu Tech 2023.pdf'
 
     const AboutHome = () => {
     return (
@@ -25,7 +26,7 @@
                                             I am eager to expand my knowledge and stay updated with emerging technologies and industry trends. 
                                         </p>
                                         <button type="button" className="btn p-2 border border-2 rounded aboutHome_button">
-                                         Read More
+                                         <a href="../../assets/Favour Ekengwu Tech 2023.pdf" class="aboutHome_link" target='_blank'>Read More</a>
                                         </button>
                                     </div>
                                 </div>
