@@ -11,7 +11,7 @@ import About from './pages/About';
 import Shop from './pages/Portfolio';
 import Games from './pages/Games';
 import Contact from './pages/Contact';
-import Portfolio from './components/Home/Portfolio';
+import Portfolio from './components/Home/PortfolioHome';
 
 function App() {
   const callRouter = createBrowserRouter(

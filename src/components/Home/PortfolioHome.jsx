@@ -1,7 +1,7 @@
 import React from 'react';
-import './Portfolio.css';
+import './PortfolioHome.css';
 
-const Portfolio = () => {
+const PortfolioHome = () => {
   return (
     <div>
         <section className="portfolio_section pt-5">
@@ -33,4 +33,4 @@ const Portfolio = () => {
   );
 }
 
-export default Portfolio;
+export default PortfolioHome;
