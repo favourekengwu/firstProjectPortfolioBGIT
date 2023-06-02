@@ -9,78 +9,12 @@ const PortfolioHome = () => {
     <div>
         <section className="portfolioHome_section pt-5">
             <div className="container" >
-                <div className="portfolioHome_content">
+                <div className="portfolioHome_content my-5">
                     <h2 className="text-center display-4 fw-bold portfolioHome_title">Some Of My Works</h2>
                     <div class="text-center fs-5 text-secondary-emphasis">
                         There are many variations of passages of Lorem Ipsum available, but
                         <br /> the majority have suffered alteration.
                     </div>
-                    <div className="row row-cols-md-3 w-100 d-flex justify-content-center">
-                        <div className="portfolioHome_card card border-0 text-start bg-transparent ">
-                            <div className="card-body text-center card-services">
-                                <img src={CorpImage}
-                                className="card-img-top rounded"
-                                alt="..."
-                                />
-                                <div class="card-body pe-0 ps-0">
-                                    <h5 class="card-title">Cooperate Business Landing Page</h5>
-                                    <p class="card-text">
-                                        A website belonging to a cooperative company that includes price tags
-                                    </p>
-                                    <a href="https://first-bootstrap-project-sigma.vercel.app/" class="services-pt2-card-link" target='_blank'>
-                                        <span class="underline-me2">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="portfolioHome_card card border-0 text-start bg-transparent ">
-                            <div className="card-body text-center card-services">
-                                <img src={GuessImage}
-                                className="card-img-top rounded"
-                                alt="..."
-                                />
-                                <div class="card-body pe-0 ps-0">
-                                    <h5 class="card-title">Guessing Game</h5>
-                                    <p class="card-text">
-                                        A Javascript guessing game in which users have five chances to guess the correct number and receive feedback on each guess.
-                                    </p>
-                                    <a href="#" class="services-pt2-card-link">
-                                        <span class="underline-me2">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="portfolioHome_card card border-0 text-start bg-transparent ">
-                            <div className="card-body text-center card-services">
-                                <img src={PortImage}
-                                className="card-img-top rounded"
-                                alt="..."
-                                />
-                                <div class="card-body pe-0 ps-0">
-                                    <h5 class="card-title">First CSS website</h5>
-                                    <p class="card-text">
-                                        The very first website built with only the most fundamental elements of HTML and CSS
-                                    </p>
-                                    <a href="https://first-css-sproject.vercel.app/" class="services-pt2-card-link" target='_blank'>
-                                        <span class="underline-me2">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>        
-        </section> 
-
-        <section>
-            <div class="my-5">
-                <h2 class="text-center display-4 fw-bold">Some Of My Works</h2>
-                <p class="text-center fs-5 text-secondary-emphasis">
-                There are many variations of passages of Lorem Ipsum available, but<br />
-                the majority have suffered alteration.
-                </p>
-
-                <div class="container">
                     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
                         <div class="mb-4">
                             <div
@@ -98,7 +32,7 @@ const PortfolioHome = () => {
                                     <button
                                     class="btn border border-3 border-danger text-white px-4 py-2"
                                     >
-                                    Read More
+                                    <a href="https://first-bootstrap-project-sigma.vercel.app/" class="services-pt2-card-link" target='_blank'>Read More</a>
                                     </button>
                                 </div>
                                 </div>
@@ -147,7 +81,7 @@ const PortfolioHome = () => {
                                     <button
                                     class="btn border border-3 border-danger text-white px-4 py-2"
                                     >
-                                    Read More
+                                    <a href="https://first-css-sproject.vercel.app/" class="services-pt2-card-link" target='_blank'>Read More</a>
                                     </button>
                                 </div>
                             </div>
@@ -155,8 +89,8 @@ const PortfolioHome = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </div>        
+        </section> 
     </div>
   );
 }
