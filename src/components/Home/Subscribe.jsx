@@ -21,8 +21,9 @@ const Subscribe = () => {
                             <label for="formId1">Email Address</label>
                         </div>
                         <button type="button" className="btn me-3 ms-2 p-3 nav-button border border-2 rounded subscribe_button">Sign Up</button>
+                        {/* <a href="mailto:favourekengwu@gmail.com?subject=my email address" whileHover={{scale: 1.3, textShadow: "0px 0px 20px rgb(221, 195, 239)",}}>Sign Up</a> */}
                     </div>
-                    <div className='pt-5'>
+                    <div className='pt-5 subscribe_text'>
                         We respect your privacy.
                     </div>
                 </div>
