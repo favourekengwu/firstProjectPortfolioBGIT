@@ -8,8 +8,8 @@ const Subscribe = () => {
             <div className="container">
                 <div className="subscribe_wrapper w-100">
                     <div className="subscribe_content">
-                        <h2>Subscribe</h2>
-                        <p>Subscribe with your email address to receive news and updates from Favour Ekengwu.</p>
+                        <h2 className="subscribe_title">Subscribe</h2>
+                        <p className="subscribe_text">Subscribe with your email address to receive news and updates from Favour Ekengwu.</p>
                         <div className="form-floating mb-3">
                             <input
                             type="text"

@@ -11,6 +11,16 @@
     text-align: center;
 }
 
+.subscribe_title {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+.subscribe_text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .subscribe_button {
     width: 25%;
     transition: all 0.2s ease-in-out;
