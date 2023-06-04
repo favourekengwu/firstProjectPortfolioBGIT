@@ -3,23 +3,23 @@
 footer {
     background-color:#4d4d4d;
     /* background-color: rgba(0, 0, 0, 0.2);      */
-    padding: 3vh;
-    text-align: center;
+    padding-top: 2vh;
+    /* text-align: center; */
     color: #fff;
 }
 
 .footer_ul {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    
+    /* display: flex; */
+    /* justify-content: center;
+    gap: 10px; */
     list-style: none;
 }
 
-.footer_ul li a {
-    color: #fff;
+.footer_text {
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 17px;
+    font-weight: 450;
 }
 
-/* hr{
-    border-left: 6px solid green;
-    height: 50%;
-} */

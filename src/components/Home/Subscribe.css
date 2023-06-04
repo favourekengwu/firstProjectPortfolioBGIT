@@ -1,6 +1,6 @@
 /* Subscribe Stying */
 .subscribe_section {
-    height: 60vh;
+    height: 45vh;
 }
 
 .subscribe_wrapper {
@@ -13,12 +13,13 @@
 
 .subscribe_title {
     font-size: 50px;
-    font-weight: 650;
+    font-weight: 600;
 }
 
 .subscribe_text {
     font-size: 18px;
     font-weight: 500;
+    font-style: oblique;
 }
 
 .subscribe_button {
@@ -26,6 +27,8 @@
     transition: all 0.2s ease-in-out;
     background-color: transparent;
     color: black;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .subscribe_button:hover {
